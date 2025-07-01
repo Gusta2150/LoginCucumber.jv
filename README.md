@@ -1,6 +1,7 @@
 # LoginCucumber
 
 🎯 Objetivo
+
 O objetivo deste projeto é demonstrar, de forma simples e prática, como implementar testes automatizados de aceitação utilizando a abordagem BDD (Behavior-Driven Development) com Cucumber em um projeto Java.
 A aplicação simula um sistema básico de login, e os testes garantem que diferentes cenários de autenticação — como sucesso, falha e entradas inválidas — sejam corretamente tratados pela lógica da aplicação.
 Este projeto é ideal para iniciantes que queiram aprender como:
