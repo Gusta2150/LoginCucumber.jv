@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.RunCucumberTest" time="0.519" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gusta\Downloads\TESTECUCUMBER_COMPLETO\target\test-classes;C:\Users\gusta\Downloads\TESTECUCUMBER_COMPLETO\target\classes;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\gusta\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\gusta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\gusta\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\gusta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\gusta\AppData\Local\Temp\surefire452709032206926362\surefirebooter-20250701174321327_3.jar C:\Users\gusta\AppData\Local\Temp\surefire452709032206926362 2025-07-01T17-43-20_881-jvmRun1 surefire-20250701174321327_1tmp surefire_0-20250701174321327_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\gusta\Downloads\TESTECUCUMBER_COMPLETO\target\test-classes;C:\Users\gusta\Downloads\TESTECUCUMBER_COMPLETO\target\classes;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\gusta\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\gusta\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\gusta\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gusta\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\gusta\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\gusta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gusta"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gusta\Downloads\TESTECUCUMBER_COMPLETO"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gusta\AppData\Local\Temp\surefire452709032206926362\surefirebooter-20250701174321327_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="gusta"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\gusta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gusta\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\gusta\Downloads\TESTECUCUMBER_COMPLETO"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apache-maven-3.9.10\bin;C:\Users\gusta\AppData\Local\Microsoft\WindowsApps;C:\Users\gusta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gusta\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Login com dados válidos" classname="Login" time="0.093">
+    <system-out><![CDATA[
+Cenário: Login com dados válidos            &amp#27;[90m# src/test/resources/features/login.feature:5&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin"&amp#27;[0m &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m                          &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m              &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser autorizado&amp#27;[0m         &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_autorizado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com dados inválidos" classname="Login" time="0.003">
+    <system-out><![CDATA[
+Cenário: Login com dados inválidos          &amp#27;[90m# src/test/resources/features/login.feature:11&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin"&amp#27;[0m &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"errada"&amp#27;[0m                        &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m              &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser negado&amp#27;[0m             &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_negado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com usuário vazio" classname="Login" time="0">
+    <system-out><![CDATA[
+Cenário: Login com usuário vazio       &amp#27;[90m# src/test/resources/features/login.feature:17&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m                     &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m         &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser negado&amp#27;[0m        &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_negado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com senha vazia" classname="Login" time="0.007">
+    <system-out><![CDATA[
+Cenário: Login com senha vazia              &amp#27;[90m# src/test/resources/features/login.feature:23&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin"&amp#27;[0m &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                              &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m              &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser negado&amp#27;[0m             &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_negado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com usuário e senha vazios" classname="Login" time="0">
+    <system-out><![CDATA[
+Cenário: Login com usuário e senha vazios &amp#27;[90m# src/test/resources/features/login.feature:29&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m    &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                            &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m            &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser negado&amp#27;[0m           &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_negado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com usuário incorreto e senha correta" classname="Login" time="0.017">
+    <system-out><![CDATA[
+Cenário: Login com usuário incorreto e senha correta &amp#27;[90m# src/test/resources/features/login.feature:35&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"usuarioErrado"&amp#27;[0m  &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m                                   &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m                       &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser negado&amp#27;[0m                      &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_negado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com usuário correto e senha incorreta" classname="Login" time="0.008">
+    <system-out><![CDATA[
+Cenário: Login com usuário correto e senha incorreta &amp#27;[90m# src/test/resources/features/login.feature:41&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin"&amp#27;[0m          &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"senhaErrada"&amp#27;[0m                            &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m                       &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser negado&amp#27;[0m                      &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_negado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com usuário joao e senha correta" classname="Login" time="0.006">
+    <system-out><![CDATA[
+Cenário: Login com usuário joao e senha correta &amp#27;[90m# src/test/resources/features/login.feature:47&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"joao"&amp#27;[0m      &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"senha123"&amp#27;[0m                          &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m                  &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser autorizado&amp#27;[0m             &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_autorizado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login com usuário maria e senha correta" classname="Login" time="0.003">
+    <system-out><![CDATA[
+Cenário: Login com usuário maria e senha correta &amp#27;[90m# src/test/resources/features/login.feature:53&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o usuário digitou o nome &amp#27;[0m&amp#27;[32m&amp#27;[1m"maria"&amp#27;[0m      &amp#27;[90m# steps.LoginSteps.que_o_usuario_digitou_o_nome(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32ma senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"senha456"&amp#27;[0m                           &amp#27;[90m# steps.LoginSteps.a_senha(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mele tenta fazer login&amp#27;[0m                   &amp#27;[90m# steps.LoginSteps.ele_tenta_fazer_login()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo login deve ser autorizado&amp#27;[0m              &amp#27;[90m# steps.LoginSteps.o_login_deve_ser_autorizado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
