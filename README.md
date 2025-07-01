@@ -14,7 +14,7 @@ Estruturar um ambiente de teste separado da lógica da aplicação.
 Este projeto simula um sistema simples de autenticação com testes automatizados usando **Cucumber**, **JUnit** e **Java**.
 
 ## 📁 Estrutura do Projeto
-├── src
+**├── src
 │ ├── main
 │ │ └── java
 │ │ └── app
@@ -29,7 +29,7 @@ Este projeto simula um sistema simples de autenticação com testes automatizado
 │ └── features
 │ └── login.feature # Cenários de teste em Gherkin
 ├── pom.xml #Gerenciador Maven
-└── README.md 
+└── README.md **
 
 ## ✅ Funcionalidade
 A funcionalidade testada é uma autenticação simples baseada em usuários pré-definidos.
